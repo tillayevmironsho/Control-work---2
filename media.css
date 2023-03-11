@@ -1,0 +1,93 @@
+@media (max-width: 850px) {
+    .header {
+        padding: 8px 5px;
+    }
+
+    .header .link {
+        font-size: 1px;
+    }
+
+    .header .link .img {
+        width: 5px;
+    }
+
+    .header .button {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Olib {
+        display: block;
+        column-gap: 30px;
+    }
+
+    .Olib .leftSide {
+        padding: 10px;
+    }
+
+    .Olib .leftSide .name {
+        font-size: 20px;
+    }
+
+    .Olib .leftSide .text {
+        font-size: 14px;
+    }
+
+    .Olib .leftSide .button {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Xizmatlar {
+        display: block;
+    }
+
+    .Xizmatlar .top .name {
+        font-size: 15px;
+    }
+
+    .Xizmatlar .top .text {
+        font-size: 13px;
+    }
+
+
+    .Xizmatlar .botton {
+        display: block;
+        flex-wrap: nowrap;
+        margin-left: 15%;
+    }
+
+    .Xizmatlar .botton .minediv {
+        width: 400px;
+    }
+
+    .Xizmatlar .botton .minediv .name {
+        font-size: 15px;
+    }
+
+    .Xizmatlar .botton .minediv .text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 850px) {
+    .big {
+        display: block;
+    }
+    .big .top .name {
+        font-size:18px;
+    }
+    .big .top .text {
+        font-size: 14px;
+    }
+    .big .botton {
+        display: flex   ;
+    }
+    .big .botton .bigdiv {
+        display: block;
+    }
+
+}

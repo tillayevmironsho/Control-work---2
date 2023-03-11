@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 8px 20px;
+}
+
+.header .link .img {
+    cursor: pointer;
+}
+
+.header .list {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.header .list .listItem .link {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header .list .listItem .button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #00BAFC;
+    border-radius: 5px;
+}
+
+.Olib {
+    display: flex;
+    justify-content: center;
+    padding: 80px 100px;
+}
+
+.Olib .leftSide {
+    padding: 17px;
+}
+
+.Olib .leftSide .name {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    width: 65%;
+}
+
+.Olib .leftSide .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+    width: 60%;
+}
+
+.Olib .leftSide .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    color: white;
+    background: #00BAFC;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.Xizmatlar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Xizmatlar .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Xizmatlar .top .name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.Xizmatlar .top .text {
+    width: 60%;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Xizmatlar .botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Xizmatlar .botton .minediv {
+    width: 20%;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 24px 0px;
+    margin: 48px 70px;
+}
+
+.Xizmatlar .botton .minediv .name {
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.Xizmatlar .botton .minediv .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.Xizmatlar .botton .butli {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Xizmatlar .botton .butli .list {
+    display: flex;
+}
+
+.Xizmatlar .botton .butli .list .listItem .button {
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #00BAFC;
+    margin-right: 16px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Xizmatlar .botton .butli .list .listItem .link {
+    border-bottom: 1px solid #00BAFC;
+    color: #00BAFC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.big {
+    align-items: center;
+    padding: 56px 0px;
+}
+
+.big .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.big .top .name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.big .top .text {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 40%;
+}
+
+.big .botton {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 36px;
+}
+
+.big .botton .button {
+    margin-top: 50px;
+    background: #00BAFC;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.big .botton .bigdiv {
+    display: flex;
+    margin-top: 50px;
+}
+
+.big .botton .bigdiv:first-child {
+    padding-left: 110px;
+}
+
+
+.big .botton .bigdiv .rightSide1 .name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.big .botton .bigdiv .rightSide1 .text {
+    margin-top: 8px;
+    width: 85%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.big .botton .bigdiv .rightSide .name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.big .botton .bigdiv .rightSide .text {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Zakaz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 100px;
+    gap: 16px;
+    background-color: #00BAFC;
+}
+
+.Zakaz .top {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Zakaz .top .name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.Zakaz .top .text {
+    width: 60%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+.Zakaz .botton {
+    background-color: white;
+    padding: 24px 24px 32px 24px;
+    border-radius: 5px;
+}
+
+.Zakaz .botton .bu {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.Zakaz .botton .bu .button1 {
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Zakaz .botton .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Zakaz .botton .list .listItem {
+    margin-top: 16px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 16px;
+    width: 100%;
+}
+
+.Zakaz .botton .list .listItem .input {
+    background-color: #F3F3F3;
+    border: none;
+}
+
+.Zakaz .botton .list .listItem .button {
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    padding: 56px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    column-gap: 70px;
+}
+
+.footer .list1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer .list1 .listItem .name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.footer .list1 .listItem .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.footer .list2 {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    column-gap: 8px;
+}
+
+.footer .list2 .name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.footer .list2 .listItem {
+    margin-top: 8px;
+}
+
+
+.footer .list2 .listItem .link {
+    color: white;
+}
+
+.footer .list3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer .list3 .name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.footer .list3 .listItem {
+    margin-top: 8px;
+}
+
+.footer .list3 .listItem .link {
+    color: white;
+    display: flex;
+    column-gap: 8px;
+}
