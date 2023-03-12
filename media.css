@@ -1,19 +1,32 @@
 @media (max-width: 850px) {
     .header {
         padding: 8px 5px;
+        width: 100%;
     }
 
-    .header .link {
-        font-size: 1px;
+    .header .list {
+        column-gap: 5px;
     }
 
-    .header .link .img {
-        width: 5px;
+
+    .header .list .listItem .link .text {
+        font-size: 10px;
     }
 
-    .header .button {
-        padding: 5px 10px;
+    .header .link .logo {
+        width: 30px;
+        height: 10px;
+        padding: 0;
     }
+
+    .header .list .listItem .button {
+        padding: 4px 8px;
+    }
+
+    .header .list .listItem .button .text {
+        font-size: 8px;
+    }
+
 }
 
 @media (max-width: 850px) {
@@ -27,16 +40,22 @@
     }
 
     .Olib .leftSide .name {
-        font-size: 20px;
+        font-size: 14px;
+        width: 100%;
     }
 
     .Olib .leftSide .text {
-        font-size: 14px;
+        font-size: 10px;
+        width: 100%;
     }
 
     .Olib .leftSide .button {
-        padding: 4px 8px;
-        font-size: 13px;
+        padding: 2px 4px;
+        font-size: 7px;
+    }
+
+    .Olib .rightSide .logo {
+        width: 90%;
     }
 }
 
@@ -46,48 +65,185 @@
     }
 
     .Xizmatlar .top .name {
-        font-size: 15px;
+        font-size: 14px;
+        font-size: 100%;
     }
 
     .Xizmatlar .top .text {
-        font-size: 13px;
+        font-size: 10px;
+        width: 50%;
     }
 
 
     .Xizmatlar .botton {
         display: block;
         flex-wrap: nowrap;
-        margin-left: 15%;
+        margin-left: 13%;
     }
 
     .Xizmatlar .botton .minediv {
-        width: 400px;
+        width: 50%;
+    }
+
+    .Xizmatlar .botton .minediv .img {
+        width: 50%;
     }
 
     .Xizmatlar .botton .minediv .name {
-        font-size: 15px;
+        font-size: 13px;
+        width: 100%;
     }
 
     .Xizmatlar .botton .minediv .text {
-        font-size: 14px;
+        font-size: 10px;
     }
+
 }
 
 @media (max-width: 850px) {
     .big {
         display: block;
     }
+
     .big .top .name {
-        font-size:18px;
-    }
-    .big .top .text {
         font-size: 14px;
+        width: 100%;
     }
+
+    .big .top .text {
+        font-size: 10px;
+        width: 50%;
+    }
+
     .big .botton {
-        display: flex   ;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        width: 100%;
     }
+
     .big .botton .bigdiv {
         display: block;
+        width: 100%;
+    }
+
+    .big .botton .bigdiv .leftSide .img {
+        width: 50%;
+    }
+
+
+    .big .botton .bigdiv .rightSide1 .name {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .big .botton .bigdiv .rightSide1 .text {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .big .botton .bigdiv .rightSide .name {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .big .botton .bigdiv .rightSide .text {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .big .botton .button {
+        padding: 2px 4px;
+    }
+
+    .big .botton .button .text {
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .Zakaz {
+        display: block;
+        padding: 28px 50px
+    }
+
+    .Zakaz .top .name {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .Zakaz .top .text {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .Zakaz .botton {
+        width: 90%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .Zakaz .botton .list .listItem {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Zakaz .botton .list .listItem .input {
+        width: 70%;
+        font-size: 10px;
+    }
+
+    .Zakaz .botton .bu {
+        margin-top: 10px;
+        padding: 2px 4px;
+    }
+
+    .Zakaz .botton .bu .button1 .text {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer {
+        display: flex;
+        padding: 28px 10px;
+    }
+
+    .footer .list1 {
+        width: 100%;
+    }
+
+    .footer .list1 .listItem .name {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .footer .list1 .listItem .text {
+        font-size: 10px;
+        width: 100%;
+    }
+    .footer .list2  .name {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .footer .list2 .listItem .text {
+        font-size: 10px;
+        width: 100%;
+    }
+    .footer .list3  .name {
+        font-size: 15px;
+        width: 100%;
+    }
+    .footer .list3 .listItem .link .logo {
+        width: 20%;
+    }
+
+    .footer .list3 .listItem .text {
+        font-size: 10px;
+        width: 100%;
     }
 
 }
